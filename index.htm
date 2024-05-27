@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ваша Лендінг Сторінка</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      header,
+      footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+      }
+      .content {
+        margin: 2em 0;
+      }
+      .responsive-image {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Медіа-запити для адаптивності */
+      @media (min-width: 600px) {
+        .container {
+          width: 80%;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          width: 75%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .container {
+          width: 70%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Ласкаво просимо на сторінку!</h1>
+      </header>
+      <div class="content">
+        <!-- <p>Контент у розробці</p> -->
+        <img
+          src="img/img_00_main_page.png"
+          alt="Опис зображення"
+          class="responsive-image"
+        />
+      </div>
+      <footer>
+        <p>© 2024 Аркадій Венецький</p>
+      </footer>
+    </div>
+  </body>
+</html>
